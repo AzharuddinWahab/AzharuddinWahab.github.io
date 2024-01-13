@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Malaysian Culture</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css>">
+  <link rel="icon" type="image/x-icon" href="image/Logo.gif">
+  <style>
+    body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #000000;
+    }
+
+    h3,
+    h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;
+      font-size: 20px;
+      color: #111;
+    }
+
+    .container {
+      padding: 40px 120px;
+    }
+
+    .container2 {
+      padding: 40px 120px;
+      background-color: #FFFFFF
+    }
+
+    .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+    }
+
+    .person:hover {
+      border-color: #f1f1f1;
+    }
+
+    .carousel-inner img {
+      width: 100%;
+      /* Set width to 100% */
+      margin: auto;
+    }
+
+    .carousel-caption h3 {
+      color: #fff !important;
+    }
+
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none;
+        /* Hide the carousel text when the screen is less than 600 pixels wide */
+      }
+    }
+
+    .carousel-caption h1 {
+  text-align: center;
+  font-size: 50px; /* Increase the font size for a bigger title */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensure the title occupies the full height of the carousel-caption */
+}
+
+
+    .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+    }
+
+    .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+    }
+
+    .thumbnail p {
+      margin-top: 15px;
+      color: #555;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+    }
+
+    .btn:hover,
+    .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+    }
+
+    .modal-header,
+    h4,
+    .close {
+      background-color: #000000;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .modal-header,
+    .modal-body {
+      padding: 40px 50px;
+    }
+
+    .nav-tabs li a {
+      color: #000000;
+    }
+
+    .navbar {
+      font-family: Arial, sans-serif;
+      margin-bottom: 0;
+      background-color: #2D2D30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+    }
+
+    .navbar-nav li a:hover {
+      color: black !important;
+    }
+
+    .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+    }
+
+    .navbar-default .navbar-toggle {
+      border-color: transparent;
+    }
+
+    .navbar-brand {
+      font-size: 24px;
+      /* Adjust the font size as needed */
+      font-weight: bold;
+      /* You can make the text bold if desired */
+      color: #000;
+      /* Text color */
+      display: flex;
+      align-items: center;
+      /* Vertically center the logo and text */
+    }
+
+    .navbar-brand img {
+      margin-right: 10px;
+      /* Add some spacing between the logo and text */
+    }
+
+    footer {
+      background-color: #ffffff;
+      color: #000000;
+      padding: 36px;
+    }
+
+    footer a {
+      color: #000000;
+    }
+
+    footer a:hover {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    .form-control {
+      border-radius: 0;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    .bg-1 {
+      background: #2d2d30;
+      color: white;
+    }
+
+    .bg-1 h2 {
+      color: #fff;
+    }
+
+    .bg-1 p {
+      font-style: italic;
+    }
+
+    .colorcontact {
+      color: #000;
+    }
+  </style>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img src="image/Logo.gif" width="6%" alt="Utama Logo">
+          <span style="color: white;">MALAYSIAN CULTURE</span>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html" style="color: white;">HOMEPAGE</a></li>
+          <li><a href="Negeri.html" style="color: white;">STATES</a></li>
+          <li><a href="Galeri.html" style="color: white;">GALLERY</a></li>
+          <li><a href="AboutUs.html" style="color: white;">ABOUT US</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="image/zapin.png" alt="Tarian Zapin, Johor" width="1200" height="700">
+        <div class="carousel-caption">
+          <h1 class="carousel-caption-title">Malaysian Culture</h1> <!-- Add the title here -->
+          <h3>Tarian Zapin</h3>
+          <p>A dance from Arab countries that has been modified to follow Malay customs</p>
+        </div>
+      </div>
+  
+      <div class="item">
+        <img src="image/chrustchurchmelaka.jpg" alt="Christ Church" width="1200" height="700">
+        <div class="carousel-caption">
+          <h1 class="carousel-caption-title">Malaysian Culture</h1> <!-- Add the title here -->
+          <h3>Christ Church</h3>
+          <p>A historic church located in the city of Melaka</p>
+        </div>
+      </div>
+  
+      <div class="item">
+        <img src="image/NasiDagang.jpg" alt="Nasi Dagang" width="1200" height="700">
+        <div class="carousel-caption">
+          <h1 class="carousel-caption-title">Malaysian Culture</h1> <!-- Add the title here -->
+          <h3>Nasi Dagang</h3>
+          <p>Known for its distinctive taste and is a popular breakfast or lunch option</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="bg-1">
+    <div id="band" class="container text-center">
+      <h3 style="color: #fff;">STATES</h3>
+      <p><em>TRADITIONAL HERITAGE OF EACH STATE</em></p>
+      <p>cultural heritage is the physical artifacts and intangible characteristics of a group or society inherited from
+        previous generations,
+        maintained in the present and preserved for future generations. These heritages include visible cultural
+        heritage
+        (eg buildings, monuments,
+        books, works of art and artifacts), the intangible (such as folklore, tradition, language, and knowledge), as
+        well
+        as natural heritage</p>
+      <br>
+      <div class="row">
+        <div class="col-sm-4">
+          <p class="text-center"><strong>Negeri Perak Darul Ridzuan</strong></p><br>
+          <a href="#demo" data-toggle="collapse">
+            <img src="image/Perakh.png" class="img-circle person" alt="Perlis" width="255" height="255">
+          </a>
+          <div id="demo" class="collapse">
+            <p>Perak</p>
+            <p>The royal city is located between Kuala Lumpur and Penang</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-center"><strong>Negeri Terengganu Darul Iman</strong></p><br>
+          <a href="#demo2" data-toggle="collapse">
+            <img src="image/terengganuH.jpg" class="img-circle person" alt="Terengganu" width="255" height="255">
+          </a>
+          <div id="demo2" class="collapse">
+            <p>Terengganu</p>
+            <p>A series of water cities located on the East Coast of Peninsular Malaysia.</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-center"><strong>Melaka Bandaraya Bersejarah</strong></p><br>
+          <a href="#demo3" data-toggle="collapse">
+            <img src="image/melakaH.jpg" class="img-circle person" alt="Melaka" width="255" height="255">
+          </a>
+          <div id="demo3" class="collapse">
+            <p>Melaka</p>
+            <p>Melaka borders Negeri Sembilan in the north and west and Johor in the south.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="tour" class="bg-1">
+    <div class="container">
+      <h3 class="text-center"></h3>
+      <p class="text-center">Let's visit every state in Malaysia.</p>
+      <ul class="list-group">
+        <li class="list-group-item bg-1">Sabah <span class="label label-danger"></span> : Mempunyai Gunung Tertinggi di
+          Asia
+          Tenggara </li>
+        <li class="list-group-item bg-1">Selangor <span class="label label-danger"></span> : Has a variety of
+          interesting and
+          impressive uniqueness.</li>
+        <li class="list-group-item bg-1">Pulau Pinang <span class="badge"></span> : Famous for the longest bridge in
+          Malaysia
+          and Asia.</li>
+      </ul>
+
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <a href="Sabah.html">
+              <img src="image/sabahH.jpg" alt="Gunung Kinabalu" width="400" height="300">
+              <p><strong>Sabah</strong></p>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <a href="Selangor.html">
+              <img src="image/SelangorH.jpg" alt="Masjid Sultan Abdul Aziz" width="400" height="300">
+              <p><strong>Selangor</strong></p>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <a href="PulauPinang.html">
+              <img src="image/PinengH.jpg" alt="Pulau Pinang" width="400" height="300">
+              <p><strong>Pulau Pinang</strong></p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container2">
+      <h3 class="text-center">Contact Us</h3>
+      <p class="text-center colorcontact"><em>We appreciate your queries. </em></p>
+
+      <div class="row colorcontact">
+        <div class="col-md-4 ">
+          <p>Any question? Send me a note</p>
+          <p><span class="glyphicon glyphicon-map-marker"></span>Malaysia , MY</p>
+          <p><span class="glyphicon glyphicon-phone"></span>Phone: +60 112780987</p>
+          <p><span class="glyphicon glyphicon-envelope"></span>Email: travelvlog@mail.com</p>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+          </div>
+          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+          <br>
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <button class="btn pull-right" type="submit">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a><br><br>
+      <p>&copyCopyright @GENGJIS</p>
+    </footer>
+    <script src="script.js">
+    </script>
+
+</body>
+
+</html>
